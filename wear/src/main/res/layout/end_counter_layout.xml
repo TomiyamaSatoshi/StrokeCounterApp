@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            style="@style/total_label"
+            android:text="@string/total_score_label"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:id="@+id/total_score"
+            style="@style/total_score_label"
+            android:text="@string/init_score"
+            android:textColor="@color/white"
+            android:textSize="24sp"/>
+        <TextView
+            style="@style/total_label"
+            android:text="@string/total_pad_label"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:id="@+id/total_pad"
+            style="@style/total_score_label"
+            android:text="@string/init_score"
+            android:textColor="@color/white"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/end_btn"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:text="@string/end_label"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+</androidx.wear.widget.BoxInsetLayout>

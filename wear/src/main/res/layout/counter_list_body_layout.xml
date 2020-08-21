@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/hole_num"
+        style="@style/counter_list_body"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/score"
+        style="@style/counter_list_body"
+        android:layout_weight="2"
+        android:text="@string/init_score"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pad"
+        style="@style/counter_list_body"
+        android:layout_weight="1.5"
+        android:text="@string/init_score"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</TableRow>

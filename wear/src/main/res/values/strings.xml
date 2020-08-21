@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="total_header_hole">H</string>
+    <string name="total_header_score">Score</string>
+    <string name="total_header_pad">Pad</string>
+    <string name="init_score">0</string>
+    <string name="round_label">Round</string>
+    <string name="to_list_btn">一覧</string>
+    <string name="score_label">Score</string>
+    <string name="minus_btn">-</string>
+    <string name="plus_btn">+</string>
+    <string name="pad_label">Pad</string>
+    <string name="end_label">終了する</string>
+    <string name="total_score_label">Total Score</string>
+    <string name="total_pad_label">Total Pad</string>
+</resources>
